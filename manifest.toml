@@ -3,7 +3,7 @@
 packaging_format = 2
 
 id = "projectsend"
-name = "Projectsend"
+name = "ProjectSend"
 description.en = "Upload files and assign them to specific clients"
 description.fr = "Télécharger des fichiers et les affecter à des clients spécifiques"
 
