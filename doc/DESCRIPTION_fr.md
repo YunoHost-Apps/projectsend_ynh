@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+ProjectSend est une application auto-hébergée qui vous permet de télécharger des fichiers et de les assigner à des clients spécifiques que vous créez vous-même ! Sécurisé, privé et facile. Plus besoin de dépendre de services externes ou de l'e-mail pour envoyer ces fichiers !
