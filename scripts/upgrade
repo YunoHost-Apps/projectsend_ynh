@@ -30,9 +30,6 @@ ynh_script_progression "Updating $app's configuration files..."
 
 ynh_config_add --template="sys.config.php" --destination="$install_dir/includes/sys.config.php"
 
-chmod 400 "$install_dir/includes/sys.config.php"
-chown "$app:$app" "$install_dir/includes/sys.config.php"
-
 #=================================================
 # REAPPLY SYSTEM CONFIGURATION
 #=================================================
