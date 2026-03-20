@@ -7,7 +7,7 @@ name = "ProjectSend"
 description.en = "Upload files and assign them to specific clients"
 description.fr = "Télécharger des fichiers et les affecter à des clients spécifiques"
 
-version = "1720~ynh1"
+version = "2002~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -49,10 +49,9 @@ ram.runtime = "90M"
 
     [resources.sources.main]
     in_subdir = false
-    url = "https://github.com/projectsend/projectsend/releases/download/r1720/projectsend-r1720.zip"
-    sha256 = "49c21ace9802a0cd849f3cc54a043c3dff6115c11ec70f892997b87769eeb8b2"
-
-    # autoupdate.strategy = "latest_github_tag"
+    url = "https://github.com/projectsend/projectsend/releases/download/r2002/projectsend-r2002.zip"
+    sha256 = "1077902d3b2dac44676b14072fe3c191020cf273e25dd1c528021e0d49ea8cc5"
+    autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
 
