@@ -7,7 +7,7 @@ name = "ProjectSend"
 description.en = "Upload files and assign them to specific clients"
 description.fr = "Télécharger des fichiers et les affecter à des clients spécifiques"
 
-version = "1720~ynh1"
+version = "2029~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -19,7 +19,7 @@ code = "https://github.com/projectsend/projectsend"
 fund = "https://www.patreon.com/ignacionelson"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -41,7 +41,7 @@ ram.runtime = "90M"
 
     [install.init_main_permission]
     type = "group"
-    default = "visitors"
+    default = "all_users"
 
 [resources]
 
@@ -49,10 +49,9 @@ ram.runtime = "90M"
 
     [resources.sources.main]
     in_subdir = false
-    url = "https://github.com/projectsend/projectsend/releases/download/r1720/projectsend-r1720.zip"
-    sha256 = "49c21ace9802a0cd849f3cc54a043c3dff6115c11ec70f892997b87769eeb8b2"
-
-    # autoupdate.strategy = "latest_github_tag"
+    url = "https://github.com/projectsend/projectsend/releases/download/r2029/projectsend-r2029.zip"
+    sha256 = "9d5eb455b1e39ee423759b9cede2c62ac57d3ab678e85438f3b6aa2599cf561f"
+    autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
 
