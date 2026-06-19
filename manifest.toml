@@ -52,6 +52,8 @@ ram.runtime = "90M"
     url = "https://github.com/projectsend/projectsend/releases/download/r2029/projectsend-r2029.zip"
     sha256 = "9d5eb455b1e39ee423759b9cede2c62ac57d3ab678e85438f3b6aa2599cf561f"
     autoupdate.strategy = "latest_github_release"
+    autoupdate.asset = "projectsend-r(\\d+)\\.zip"
+    autoupdate.version_regex = "r(\\d+)"
 
     [resources.system_user]
 
